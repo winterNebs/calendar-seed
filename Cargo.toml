@@ -1,8 +1,8 @@
 [package]
 version = "0.1.0"
-name = "{{project-name}}"
+name = "calendar-seed"
 repository = "https://github.com/seed-rs/seed-quickstart"
-authors = ["{{authors}}"]
+authors = ["winterNebs"]
 description = "App Description"
 categories = ["category"]
 license = "MIT"
@@ -17,6 +17,8 @@ wasm-bindgen-test = "0.3.18"
 
 [dependencies]
 seed = "0.8.0"
+chrono = "0.4"
+ulid = "0.3.3"
 
 [profile.release]
 lto = true
